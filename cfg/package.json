@@ -1,0 +1,28 @@
+{
+  "num_epoch": 10240,
+  "batch_sz": 1,
+  "lr": 0.001,
+  "save_model": true,
+  "save_interval": 40,
+  "optim_interval": 1,
+  "eval_interval": 4,
+  "fine_tune": true,
+  "num_workers":0,
+  "use_parallel": false,
+  "use_ddp": false,
+  "log_dir": "MLPrePro-main/my_outputs/",
+  "available_devices": [
+    0
+  ],
+  "default_device": 0,
+  "mode": [
+    "train","debug"
+  ],
+  "info": "train precoder with encoder loss",
+  "train_len": 32,
+  "eval_len": 4,
+  "model_input_path": "/home/xiaohu/PythonProject/MLPrePro-main/tasks/train_simulator_preprocessor_at_same_time/model_output/Q23_simulator3.pth",
+  "model_input_path_simulator": "/home/xiaohu/PythonProject/MLPrePro-main/tasks/train_simulator_preprocessor_at_same_time/model_simulator_output_dir/QP23_1_3.pth_simulator",
+  "subx": 78
+}
+

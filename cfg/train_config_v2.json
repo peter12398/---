@@ -1,0 +1,25 @@
+{
+  "num_epoch": 256,
+  "batch_sz": 3,
+  "lr": 0.001,
+  "save_model": true,
+  "save_interval": 64,
+  "optim_interval": 2,
+  "eval_interval": 64,
+  "fine_tune": true,
+  "model_input_path": "./model_output/resnet18-5c106cde.pth",
+  "num_workers":2,
+  "use_parallel": true,
+  "use_ddp": false,
+  "log_dir": "MLPrePro-main/my_outputs/",
+  "available_devices": [
+    0
+  ],
+  "default_device": 0,
+  "mode": [
+    "train","debug"
+  ],
+  "info": "train precoder with encoder loss",
+  "train_len": 4,
+  "eval_len": 16
+}

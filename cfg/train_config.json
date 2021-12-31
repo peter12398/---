@@ -1,0 +1,15 @@
+{
+  "num_epoch": 5,
+  "batch_sz": 1,
+  "lr": 0.0005,
+  "save_model": true,
+  "save_interval": 1,
+  "optim_interval": 4,
+  "num_workers": 8,
+  "use_parallel": false,
+  "use_cuda": false,
+  "available_devices":[3, 2],
+  "default_device": 0,
+  "mode": ["train", "debug"],
+  "info": "test precoder"
+}

@@ -1,0 +1,22 @@
+{
+  "num_epoch": 1,
+  "batch_sz": ,
+  "save_model": false,
+  "fine_tune": true,
+  "model_input_path": "./model_output/2021-04-28T19:23:57+0800_epoch=1_loss=7.782321_lr=0.000500.pth",
+  "num_workers":8,
+  "use_parallel": true,
+  "use_ddp": false,
+  "available_devices": [
+    1,
+    2,
+    3
+  ],
+  "default_device": 0,
+  "mode": [
+    "eval"
+  ],
+  "info": "eval precoder with encoder loss",
+  "train_len": 256,
+  "eval_len": 256
+}

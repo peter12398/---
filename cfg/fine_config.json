@@ -1,0 +1,15 @@
+{
+  "num_epoch": 2,
+  "batch_sz": 4,
+  "lr": 0.0001,
+  "save_model": true,
+  "save_interval": 1,
+  "fine_tune": true,
+  "model_input_path":"./model_output/2021-04-22T15:01:53_epoch=1_loss=0.5038689987497325_lr=0.001.pth",
+  "num_workers": 8,
+  "use_parallel": true,
+  "available_devices":[2, 3],
+  "mode": ["train"],
+  "info": "continue to warmup precoder with vimeo dataset",
+  "memory_thresh": 7500
+}
